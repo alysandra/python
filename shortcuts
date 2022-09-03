@@ -1,3 +1,13 @@
 new line
 slide "/n" <- no quote, no breaks into the string for it to work
 print("Congratulations!/nYou qualify for a discount.")
+
+
+when you have a function that returns a tuple (a,b): you can release them by doing this
+
+###code
+a,b = get_ticket_info(10)
+
+if b == True:
+    print("xyz")
+print("You need to pay $", a) 
